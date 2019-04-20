@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "ae96418ea695e926ace54cee07f35b25ac886ec6",
+  "iOS" : [
+    {
+      "name" : "ModelHelper",
+      "hash" : "e795808880ce2bba3bb4642b7f0c3de9e25f53188d5a8f029a151ec0d0dbc86f"
+    }
+  ]
+}
