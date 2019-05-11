@@ -1,18 +1,10 @@
 {
-  "Mac" : [
-
-  ],
-  "watchOS" : [
-
-  ],
-  "tvOS" : [
-
-  ],
-  "commitish" : "f78d2d82824a0d672ecd4dd3929578a0f6f3a378",
+  "commitish" : "7ce6ce64d15a9131476baa69a219f044da521164",
   "iOS" : [
     {
       "name" : "ViewHelper",
-      "hash" : "77774c16e637d2e9f8edd6acb7b5ef6f45a640b0c3de1b1c37b1d720884db87a"
+      "hash" : "e1f5d1b13317a82e800d06d4f2356239024ed818953c87181a48ee194e488f33",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]
 }

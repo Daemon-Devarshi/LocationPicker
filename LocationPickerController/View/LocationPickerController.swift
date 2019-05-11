@@ -55,7 +55,7 @@ public class LocationPickerController: UIViewController, LocationPermissionPrese
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        resultsTableView.estimatedRowHeight = UITableViewAutomaticDimension
+        resultsTableView.estimatedRowHeight = UITableView.automaticDimension
     }
     
     // MARK: IBActions

@@ -36,6 +36,8 @@ class LocationDetectionManager: NSObject {
             locationManager?.requestWhenInUseAuthorization()
         case .restricted, .denied:
             presenter?.alertUserForLocationPermission()
+        @unknown default:
+            print("error in switch of authorization status")
         }
     }
 }

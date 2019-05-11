@@ -7,7 +7,7 @@ import Foundation
 import CoreLocation
 
 public extension CLPlacemark {
-    public var address: String? {
+     var address: String? {
         var dataArray = [String]()
         if let locality = locality {
             dataArray.append(locality)

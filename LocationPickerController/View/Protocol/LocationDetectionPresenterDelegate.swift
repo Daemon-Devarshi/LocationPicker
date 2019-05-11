@@ -31,8 +31,8 @@ extension LocationPermissionPresenterDelegate where Self: UIViewController {
         alertController.addAction(cancelAction)
         
         let openAction = UIAlertAction(title: customAlertEnableLocationOpenSettingsTitle, style: .default) { (action) in
-            if let url = URL(string:UIApplicationOpenSettingsURLString) {
-                UIApplication.shared.open(url, options: [:], completionHandler: { (success) in
+            if let url = URL(string:UIApplication.openSettingsURLString) {
+                UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: { (success) in
                     if success {
                         
                     }
@@ -42,4 +42,9 @@ extension LocationPermissionPresenterDelegate where Self: UIViewController {
         alertController.addAction(openAction)
         present(alertController, animated: true, completion: nil)
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }
