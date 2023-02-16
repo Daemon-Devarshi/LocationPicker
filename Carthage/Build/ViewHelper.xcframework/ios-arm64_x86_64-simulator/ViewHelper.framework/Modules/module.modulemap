@@ -1,0 +1,11 @@
+framework module ViewHelper {
+  umbrella header "ViewHelper.h"
+
+  export *
+  module * { export * }
+}
+
+module ViewHelper.Swift {
+  header "ViewHelper-Swift.h"
+  requires objc
+}

@@ -2,9 +2,18 @@
   "commitish" : "7ce6ce64d15a9131476baa69a219f044da521164",
   "iOS" : [
     {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "f5260236afc740fe08dc5ec37aaf21a1b6ff0f585a7d867b6140eb27461b36db",
       "name" : "ViewHelper",
-      "hash" : "e1f5d1b13317a82e800d06d4f2356239024ed818953c87181a48ee194e488f33",
-      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+      "container" : "ViewHelper.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "4555c944df22db468281f80203a1cfcd8b227f72e8371fa2ea509a060d8c9f27",
+      "name" : "ViewHelper",
+      "container" : "ViewHelper.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }
